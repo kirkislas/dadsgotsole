@@ -192,7 +192,7 @@ AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
 
 AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
 
-S3_BUCKET = 'dadsgotsole-bucket'
+AWS_STORAGE_BUCKET_NAME = 'dadsgotsole-bucket'
 
 
 if os.getcwd() == '/app':
