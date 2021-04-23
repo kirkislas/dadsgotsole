@@ -1,4 +1,4 @@
-import django_heroku
+
 """
 Django settings for backend project.
 
@@ -197,4 +197,3 @@ AWS_STORAGE_BUCKET_NAME = 'dadsgotsole-bucket'
 
 if os.getcwd() == '/app':
     DEBUG = False
-django_heroku.settings(locals())
